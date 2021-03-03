@@ -1,3 +1,4 @@
+// CMD
 package main
 
 import (

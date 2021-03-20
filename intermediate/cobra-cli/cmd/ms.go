@@ -22,7 +22,7 @@ var mxCmd = &cobra.Command{
 		}
 
 		for i := 0; i < len(mx); i++ {
-			fmt.Println(mx[i])
+			fmt.Println(mx[i].Host, mx[i].Pref)
 		}
 		return nil
 	},
